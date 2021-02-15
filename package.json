@@ -1,0 +1,30 @@
+{
+  "name": "tailwind-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/layfredrc/Tailwind-Playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/layfredrc/Tailwind-Playground/issues"
+  },
+  "homepage": "https://github.com/layfredrc/Tailwind-Playground#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "parcel-bundler": "latest",
+    "postcss": "^7.0.35",
+    "postcss-modules": "latest",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
+  }
+}
